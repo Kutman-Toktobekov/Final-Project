@@ -16,7 +16,7 @@ const Footer = () => {
 
         
 
-        <div className="footer-section contact">
+        <div className="footer-section contact" id='teachers'>
           <h3>Мы на карте</h3>
           <a href="https://go.2gis.com/ahw5e" className='map'><p>2Gis</p></a>
         </div>

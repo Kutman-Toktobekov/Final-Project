@@ -5,6 +5,11 @@
     display: flex;
     justify-content: space-between;
     height: 150px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
 }
 .logo{
     width: 300px;

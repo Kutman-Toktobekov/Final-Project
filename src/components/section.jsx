@@ -32,7 +32,7 @@ const Section = () => {
   return (
     <div>
      
-      <section className="first-section">
+      <section className="first-section" >
         <h1>КУРСЫ АНГЛИЙСКОГО ЯЗЫКА | БИШКЕК</h1>
         <p>Envio knows how to bring you results!</p>
         <div className="info-container">
@@ -55,7 +55,7 @@ const Section = () => {
       </section>
 
 
-      <section className="courses-section">
+      <section className="courses-section" id='courses'>
         <div className="courses-info">
           <h2 className='about-courses-2'>О наших курсах</h2>
           <p>
@@ -161,7 +161,7 @@ const Section = () => {
       </div>
         </div>
       </section>
-        <section className='teachers-section'>
+        <section className='teachers-section' id='teachers'>
           <h1>Наши учителя</h1>
           <div className="teachers-card">
             <div className="Ai-Peri-card">

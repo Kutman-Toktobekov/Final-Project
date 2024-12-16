@@ -8,6 +8,7 @@ const Header = () => {
     <div>
       <header>
         <div className="main-head">
+
             <div className="directot-img">
             <img src={logo} alt="logo" className="Belek-img"/>
             </div>
@@ -17,11 +18,11 @@ const Header = () => {
             <div className="nav">
                 <ul className="main-nav">
                     <a href="#" className="link"><li className='home-li'>Главная</li></a>
-                    <a href="#" className="link"><li class="about-li">Курсы</li></a>
-                    <a href="" class="link"><li className="teachers-li">Преподавательский состав</li></a>
+                    <a href="#courses" className="link"><li class="about-li">Курсы</li></a>
+                    <a href="#teachers" class="link"><li className="teachers-li">Преподавательский состав</li></a>
                 </ul>
             </div>
-        </div>
+          </div>
     </header>
 
     
