@@ -1,3 +1,4 @@
+
 .first-section{
     width: 100%;
     text-align: center;
@@ -10,6 +11,8 @@
     padding: 15px 0 0 0;
 }
 .info-container{
+    margin: 30px 0 0 0;
+    justify-content: space-around;
     width: 100%;
     display: flex;
 }
@@ -18,8 +21,14 @@
     background-color: rgb(215, 173, 255);
     color: white;
     height: 220px;
-    border-radius: 30px 30px 30px 30px;
-    
+    border-radius: 30px 30px 30px 30px; 
+}
+.info-section:hover{
+    width: 560px;
+    background-color: rgb(189, 119, 255);
+    color: white;
+    height: 220px;
+    border-radius: 30px 30px 30px 30px; 
 }
 .info-text1{
     padding: 15px 0 0 0;
@@ -33,6 +42,285 @@
     height: 210px;
     border-radius: 30px 30px 30px 30px;   
 }
-.info-text2{
+.info-section2:hover{
+    margin: 0 0 0 25px;
     padding: 15px 0 0 0;
+    width: 560px;
+    background-color: rgb(189, 119, 255);
+    color: white;
+    height: 210px;
+    border-radius: 30px 30px 30px 30px;   
+}
+.info-section3{
+    margin: 0 0 0 25px;
+    padding: 15px 0 0 0;
+    width: 560px;
+    background-color: rgb(215, 173, 255);
+    color: white;
+    height: 210px;
+    border-radius: 30px 30px 30px 30px;  
+}
+.info-section3:hover{
+    margin: 0 0 0 25px;
+    padding: 15px 0 0 0;
+    width: 560px;
+    background-color: rgb(189, 119, 255);
+    color: rgb(255, 255, 255);
+    height: 210px;
+    border-radius: 30px 30px 30px 30px;   
+}
+.about-courses-2{
+    padding: 20px 0 0 0;
+    color: black;
+}
+.courses-section{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(232, 208, 255);
+}
+.lessons{
+    list-style-type: none;
+}
+.individual-lessons-3{
+    color: #ffff;
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.modal-window{
+    background-color: rgb(189, 119, 255);
+}
+.individual-lessons-5{
+    color: #ffff;
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.pair-lessons-3{
+    margin: 70px 20px 0 20px;
+    color: #ffff;
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.group-lessons-3{
+    color: #ffff;
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.group-lessons-5{
+    color: #ffff;
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.main-prices{
+    margin: 0 0 0 290px;
+    display: flex;
+}
+.text-h3{
+    padding: 5px 0 0 0;
+}
+.button3{
+    height: 20;
+    background-color:white;
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button3:hover{
+    color: white;
+    height: 20;
+    background-color:rgb(213, 57, 252);
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button3:active{
+    color: white;
+    height: 20;
+    background-color:rgb(146, 21, 177);
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button5{
+    height: 20;
+    background-color:white;
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button5:hover{
+    color: white;
+    height: 20;
+    background-color:rgb(213, 57, 252);
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button5:active{
+    color: white;
+    height: 20;
+    background-color:rgb(146, 21, 177);
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button-pair{
+    height: 20;
+    background-color:white;
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button-pair:hover{
+    color: white;
+    height: 20;
+    background-color:rgb(213, 57, 252);
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button-pair:active{
+    color: white;
+    height: 20;
+    background-color:rgb(146, 21, 177);
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button-group{
+    height: 20;
+    background-color:white;
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button-group:hover{
+    color: white;
+    height: 20;
+    background-color:rgb(213, 57, 252);
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button-group:active{
+    color: white;
+    height: 20;
+    background-color:rgb(146, 21, 177);
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button5{
+    height: 20;
+    background-color:white;
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button5:hover{
+    color: white;
+    height: 20;
+    background-color:rgb(213, 57, 252);
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.button5:active{
+    color: white;
+    height: 20;
+    background-color:rgb(146, 21, 177);
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+.Ai-Peri-card{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(220, 173, 236);
+}
+.teachers-section {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .teachers-section h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .teachers-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .teachers-card > div {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .teachers-card > div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .teachers-card h3 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  .teachers-card button {
+    background-color: rgb(213, 57, 252);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .teachers-card button:hover {
+    background-color: #b300a4;
+  }
+  
+  @media (max-width: 768px) {
+    .teachers-card {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .teachers-card > div {
+      width: 90%;
+    }
+  }
+.exem{
+    color: rgb(78 0 151);
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(214, 176, 250);
+}
+.test{
+    padding: 10px 0 0 0;
+}
+.test-btn{
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #e482ed;
+    border: solid 1px blueviolet;
+}
+.test-btn:hover{
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #ed6df9;
+    border: solid 1px rgb(156, 75, 232);
+}
+.test-btn:active{
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 30px;
+    background-color: #f3abfa;
+    border: solid 1px rgb(202, 155, 246);
 }

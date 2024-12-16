@@ -1,0 +1,119 @@
+.footer {
+    background-color: blueviolet;
+    color: #ffffff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 15px;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+  }
+  
+  .footer-section p,
+  .footer-section ul,
+  .footer-section a {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #00aaff;
+  }
+  
+  .footer-section.contact p i {
+    margin-right: 8px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #00aaff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 1px solid #ffffff;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      text-align: center;
+      margin: 15px 0;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  }
+  
+.map{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.inst-logo{
+    margin: 0 0 0 150px;
+    width: 25px;
+    height: 25px;
+    border-radius: 100px 100px 100px 100px;
+}
+.whatsapp-logo{
+    width: 25px;
+    height: 25px;
+    border-radius: 100px 100px 100px 100px;
+}
